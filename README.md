@@ -43,18 +43,21 @@ Each subfolder contains three files: `train.json`, `dev.json`, and `test.json`, 
 
 
 
+
+
 ---
 
 ## ⚙️ Model Overview
 
 ```mermaid
 flowchart TD
-  A[Input Sentence] --> B[Local Context Encoder (BERT + BiLSTM)]
-  B --> C[Hierarchical Fusion Layer]
-  C --> D[Global Semantic Prototypes]
-  D --> E[Prototype-Aware Representation]
-  E --> F[Classifier]
-  F --> G[Predicted Rhetorical Role]
+  A["Input Sentence"] --> B["Local Context Encoder (BERT + BiLSTM)"]
+  B --> C["Hierarchical Fusion Layer"]
+  C --> D["Global Semantic Prototypes"]
+  D --> E["Prototype-Aware Representation"]
+  E --> F["Classifier"]
+  F --> G["Predicted Rhetorical Role"]
+
 
 ---
 
