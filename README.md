@@ -61,7 +61,7 @@ flowchart TD
 
 ---
 
-### 🧭 Architecture Components
+### Architecture Components
 
 - **Local Context Encoder** → Extracts local sequential embeddings using transformer and BiLSTM layers.  
 - **Global Semantic Prototype Module** → Retrieves label-specific prototypes built from corpus-level embeddings.  
