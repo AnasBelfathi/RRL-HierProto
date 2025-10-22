@@ -1,6 +1,6 @@
 # 🏛️ Coupling Local Context and Global Semantic Prototypes via Hierarchical Architecture for Rhetorical Roles Labeling
 
-[![Status](https://img.shields.io/badge/Status-Accepted%20at%20ACL%202025-blue.svg)](https://aclanthology.org/)
+[![Status](https://img.shields.io/badge/Status-Under%20Review%20by%20EACL%202026-orange.svg)](https://eacl.org/)
 [![Python](https://img.shields.io/badge/Python-3.9%2B-yellow.svg)](https://www.python.org/)
 [![PyTorch](https://img.shields.io/badge/PyTorch-Framework-orange.svg)](https://pytorch.org/)
 [![License](https://img.shields.io/badge/License-MIT-lightgrey.svg)](#license)
