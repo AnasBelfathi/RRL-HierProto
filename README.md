@@ -57,11 +57,11 @@ flowchart TD
   D --> E["Prototype-Aware Representation"]
   E --> F["Classifier"]
   F --> G["Predicted Rhetorical Role"]
-
+```
 
 ---
 
-### Architecture Components
+### 🧭 Architecture Components
 
 - **Local Context Encoder** → Extracts local sequential embeddings using transformer and BiLSTM layers.  
 - **Global Semantic Prototype Module** → Retrieves label-specific prototypes built from corpus-level embeddings.  
