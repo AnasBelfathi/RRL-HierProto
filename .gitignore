@@ -1,0 +1,24 @@
+# Data, models and results are intentionally NOT part of this repo -- see
+# README for how to obtain/build them. This .gitignore is a safety net so
+# they're never committed by accident.
+ssc-datasets/
+processed-datasets/
+document-grouping/document-groupe/
+document-grouping/embeddings/
+document-grouping/groupe-embeddings*/
+context-extraction/proto-with-labels*/
+context-extraction/centroids/
+context-extraction/clustered-sentences*/
+matching-context/new_similarity_outputs*/
+matching-context/similarity_outputs*/
+models/
+*-output-training-*/
+output-training*/
+smoke-test-output/
+reps_output.jsonl
+job_out_err/
+
+__pycache__/
+*.pyc
+.DS_Store
+.idea/

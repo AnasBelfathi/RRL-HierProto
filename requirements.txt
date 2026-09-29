@@ -1,0 +1,17 @@
+# Known-working combination: Python 3.9, allennlp 2.10.x (pulls in a
+# compatible spacy/thinc/numpy/torch chain -- pin conflicts here are the most
+# common source of install trouble, see README "Troubleshooting").
+torch
+transformers
+allennlp==2.10.*
+scikit-learn
+numpy
+pandas
+scipy
+tqdm
+prettytable
+matplotlib
+
+# document-grouping/openai_kmeans_legal_eval_v2.py (supervised-clustering PCM variant)
+openai
+tiktoken
